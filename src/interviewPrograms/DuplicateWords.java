@@ -14,7 +14,7 @@ public class DuplicateWords {
 		System.out.println(o1);
 		
 		String[] orgarr = o1.split(" ");
-		System.out.println(orgarr);
+		//System.out.println(orgarr);
 		
 		Map<String,Integer> m = new HashMap<String,Integer>();
 		for(String s:orgarr){
@@ -53,6 +53,7 @@ public class DuplicateWords {
 		m.put("", 6);
 		m.put("", 7);//this will be displayed - allows only one null key
 		m.put("hh",null);
+		m.put("hh", 9);
 		m.put("yy",null); //allows multiple null values
 		m.put("bat", 7);
 		System.out.println(m);;

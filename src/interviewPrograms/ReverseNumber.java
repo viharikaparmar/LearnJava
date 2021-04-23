@@ -20,6 +20,8 @@ public class ReverseNumber {
 		System.out.println(s.indexOf("s",s1+1));
 		int s2 = (s.indexOf("s",s1+1));
 		System.out.println(s.indexOf("s",s2+1));
+		String s3 = s.substring(6,9);
+		System.out.println(s3);
 		
 		
 	}

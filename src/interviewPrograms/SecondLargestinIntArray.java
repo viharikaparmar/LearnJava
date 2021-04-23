@@ -6,7 +6,7 @@ public class SecondLargestinIntArray {
 	
 		int i, first, second; 
 		
-		int[] arr = {10,20,50,100,300,1,8};
+		int[] arr = {10,20,50,100,300,200,8};
 	
 		int arr_size = arr.length;
 	       
